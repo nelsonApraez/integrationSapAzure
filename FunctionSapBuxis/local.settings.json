@@ -1,0 +1,29 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ConnectionStringRTF": "Server=localhost;Database=RTF;Integrated Security=true;",
+    "AzureWebJobsServiceBus": "Endpoint=sb://example-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=EXAMPLE_KEY_HERE",
+    "AzureTableStorage": "DefaultEndpointsProtocol=https;AccountName=example-storage;AccountKey=EXAMPLE_STORAGE_KEY_HERE;EndpointSuffix=core.windows.net",
+    "ConnectionStringBuxis": "Server=localhost;Database=EXAMPLE_DB;Integrated Security=true;",
+    "CompanyId": "EXAMPLE_COMPANY_ID",
+    "PasswordSAP": "EXAMPLE_SAP_PASSWORD",
+    "UserNameSAP": "EXAMPLE_SAP_USER",
+    "InputQueueName": "rtfqueue",
+    "FTPPath": "ftp://example.ftp.server/path/",
+    "FTPUserName": "example_user",
+    "FTPPassword": "example_password",
+    "ConnectionStringRFC": "ASHOST=example.sap.server SYSNR=00 CLIENT=100 USER=EXAMPLE_USER PASSWD=EXAMPLE_PASSWORD",
+    "ConnectionLogicApp": "https://example-logic-app.azurewebsites.net:443/api/Integration/triggers/When_a_HTTP_request_is_received/invoke",
+    "RabbitMqConnection": "amqp://Company:$example123@192.168.0.172",
+    "OutputQueueName": "cola_poc_company",
+    "UrlExtraccionRTFFunction": "https://example-api-management.azure-api.net/example-function/ExtraerYEncolarDatosFiscales",
+    "Ocp-Apim-Subscription-Key": "EXAMPLE_SUBSCRIPTION_KEY_HERE"
+  },
+  "Host": {
+    "CORS": "http://localhost:4200",
+    "CORSCredentials": true,
+    "functionTimeout": 600
+  }
+}
